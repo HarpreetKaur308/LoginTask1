@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  padding: 15px 10px;
+  display: flex;
+}
+
+.title-label {
+  margin-right: auto;
+}
+
+.title-button {
+  width: auto;
+  font-size: 13px;
+  padding: 5px;
+  margin-left: 65px;
+  background-color: rgb(40, 123, 207);
+  border: none;
+  color: #f8f8f8;
+  border-radius: 4px;
+}
+
+.body thead,
+tbody {
+  font-size: 13px;
+}
+
+th {
+  position: sticky;
+  top: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(181, 181, 181);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+.my-custom-scrollbar {
+  position: relative;
+  height: 75vh;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
